@@ -1,0 +1,7 @@
+.portfolio-scroll-icon {
+    position: sticky;
+   top: 500px;
+    z-index: 2;
+    border-radius: 30px;
+
+}

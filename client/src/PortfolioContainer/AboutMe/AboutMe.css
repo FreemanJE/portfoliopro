@@ -1,0 +1,114 @@
+.about-me-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 50px 0;
+    background-image: url("../../assets/AboutMeImages/about-bg.png");
+    z-index: 0.1;
+    opacity: 0.5;
+}
+
+.about-me-container::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    background-color: #1f2235;
+  }
+.about-me-parent {
+    max-width: 1000px;
+    width: 90%;
+    
+
+}
+.about-me-card{
+    display: flex;
+    width: 100%;
+    box-shadow: 0 0px 20px -2px #1f2235 ;
+    background-color: white;
+    margin: 0px 0 100px 0px;
+    border-radius: 0px 30px;
+    box-shadow: 5px 10px 20px silver;
+
+}
+.about-me-profile {
+    width: 50%;
+    background-image: url("../../assets/AboutMeImages/foto2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+.about-me-details{
+    width: 48%;
+    text-align: justify; 
+    padding: 30px;
+}
+.about-me-description{
+    font-size: 15px;
+}
+.about-me-highlights{
+    margin: 80px 0;
+    box-shadow: 5px 15px 10px silver;
+}
+.highlight-heading{
+    font-family: "Poppins Bold";
+    font-size: 18px;
+    margin: 20px 0 5px 0;        
+}
+.highlight{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    font-size: 15px;
+}
+.highlight-blob{
+    height: 12px;
+    width: 12px;
+    margin: 0 10px 0 0;
+    background-color: #ff5823;
+    border-radius: 50%;
+}
+.about-me-options{
+    margin: 20px 0 0 0;
+}
+.about-me-options .highlighted-btn {
+    margin: 0 0 0 30px;
+    box-shadow: 5px 15px 10px silver;
+}
+/* Responsiveness */
+/* IPAD PRO */
+@media only screen and (max-width: 1110px) {
+    .about-me-parents {
+        width: 88%;
+
+    }    
+}
+@media only screen and (max-width: 898px) {
+    .about-me-profile {
+        display: none;
+    }
+    .about-me-details{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 466px) {
+    .about-me-options{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-me-options .highlighted-btn{
+        margin: 24px 0 0 0 !important;
+    }
+    .about-me-options button {
+        width: 100%;        
+    }
+}
+
+
+
+

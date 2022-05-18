@@ -1,0 +1,28 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "This Portfolio Project is complete REACT web App built with inputs from Ehizeex in Udemy Training.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run  server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.16",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
+}

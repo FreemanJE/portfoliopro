@@ -1,0 +1,53 @@
+.scroll-container {
+    position: absolute;
+    text-align: center;
+    right: 0;
+    margin-right: 15px;
+    overflow: hidden;   
+    cursor: pointer;
+    border-radius: 30px;    
+  }  
+  .btn-scroll {
+    width: 50px;
+    height: 120px;
+    color: aliceblue;   
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;  
+    background-color: tomato;
+    border-radius: 30px;
+    border: none;
+  }
+  
+  .btn-scroll i:hover {
+    transform: rotate(360deg);
+    color: greenyellow;
+  }
+  
+  .btn-scroll i {
+    writing-mode: vertical-rl;
+    /* text-orientation: upright; */ 
+    color: white;  
+    padding-right: 30px;
+    -webkit-animation: mover 0.5s infinite alternate;
+    animation: mover 0.5s infinite alternate;
+  }
+  @keyframes mover {
+    100% {
+      transform: translateY(-10px);
+    }
+    0% {
+      transform: translateX(0px);
+      color:blue
+    }
+  }
+  @media only screen and (max-width: 540px) {
+    .btn-scroll {
+      width: 40px;
+      height: 100px;
+      font-size: 20px;
+    }
+    .btn-scroll i {
+      padding-right: 35px;
+    }
+  }
