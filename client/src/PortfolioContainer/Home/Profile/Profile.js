@@ -15,7 +15,13 @@ const Profile = () => {
               </a>
               
               <a href="https://www.linkedin.com/in/freeman-johnson-b1b04683/">
-                <i className="fa fa-linkedin"></i>
+                <i className="fa fa-linkedin-square"></i>
+              </a>
+              <a href=" #">
+                <i className="fa fa-facebook-square"></i>
+              </a>
+              <a href=" #">
+                <i className="fa fa-twitter-square"></i>
               </a>
               
             </div>

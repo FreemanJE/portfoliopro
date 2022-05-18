@@ -81,7 +81,13 @@ export default function ContactMe(props) {
               <i className="fa fa-google-plus-square"></i>
             </a>
             <a href="https://www.linkedin.com/in/freeman-johnson-b1b04683/">
-              <i className="fa fa-linkedin"></i>
+              <i className="fa fa-linkedin-square"></i>
+            </a>
+            <a href=" #">
+              <i className="fa fa-facebook-square"></i>
+            </a>
+            <a href=" #">
+              <i className="fa fa-twitter-square"></i>
             </a>
           </div>
         </div>
@@ -89,7 +95,9 @@ export default function ContactMe(props) {
           <div className="img-back">
             <h4>Send Your Email Here!</h4>
             <img src={imgBack} alt="imag not found" />
+            
           </div>
+
           <form onSubmit={submitForm}>
             <p>{banner}</p>
             <label htmlFor="name">Name</label>
@@ -116,8 +124,7 @@ export default function ContactMe(props) {
             </div>
           </form>
         </div>
-       
-      </div>     
+      </div>
     </div>
   );
 }

@@ -9,8 +9,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <div className="App"> 
-    <p id="home">test</p>
+    <div className="App">     
     <ToastContainer />    
      <PortfolioContainer />  
     </div>
