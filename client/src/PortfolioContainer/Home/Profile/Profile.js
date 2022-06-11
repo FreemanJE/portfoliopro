@@ -10,7 +10,7 @@ const Profile = () => {
           <div className="colz">
             <div className="colz-icon">
              
-              <a href="https://github.com/E07-2">
+              <a href="https://github.com/FreemanJE?tab=repositories">
                 <i className="fa fa-google-plus-square"></i>
               </a>
               

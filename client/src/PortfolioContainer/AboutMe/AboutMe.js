@@ -13,7 +13,7 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTANTS = {
     descriptions:
-      " Highly motivated Full Stack Web and Mobile Developer with background knowledge on Computer Hardware Services. Skillful in MERN Stack and passionate in databases efficiency.",
+      " Highly motivated Full Stack Web and Mobile Developer with background knowledge on Computer Hardware Services. Skillful in MERN Stack, passionate in databases efficiency and adept in Front End designs",
 
     highlights: {
       bullets: [
