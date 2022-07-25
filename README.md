@@ -3,8 +3,8 @@ This Portfolio Project is complete a REACT web App built with inputs from Ehizee
 
 The fully responsive Portfolio Project is bootstrapped with "Create React App.
 
-To view the deployment on Heroku, usethe this link: 
-[https://freemanportfolio.herokuapp.com/]( https://freemanportfolio.herokuapp.com/)
+To view the deployment on Heroku, use this link: 
+[https://freemanportfolio.herokuapp.com/]( https://freemanportfolio.herokuapp.comm/)
 
 In the project directory, you can run:
 
