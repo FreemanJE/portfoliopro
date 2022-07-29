@@ -12,6 +12,9 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
 
+### `npm run dev` 
+This will concurrently run the backend and the frontend at http://localhost:3000
+
 
 ### `npm run build`
 
