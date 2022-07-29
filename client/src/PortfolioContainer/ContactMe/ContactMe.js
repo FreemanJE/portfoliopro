@@ -77,7 +77,7 @@ export default function ContactMe(props) {
             />
           </h2>
           <div className="colz-icon">
-            <a href="https://github.com/FreemanJE?tab=repositories">
+            <a href="https://github.com/FreemanJE">
               <i className="fa fa-google-plus-square"></i>
             </a>
             <a href="https://www.linkedin.com/in/freeman-johnson-b1b04683/">
