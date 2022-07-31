@@ -61,9 +61,8 @@ export default function Testimonial(props) {
                                 <div className="testi-comment">
                                     <p>
                                         <i className="fa fa-quote-left" /> 
-                                        Creative works from Freeman, He is very creative and unique in his approaches.He is honest and
-                                        he delivers on time.<br/>
-                                        (Sample message)
+                                        Thanks Freeman! That means a lot to me. You were one of the best students I've ever had in DCI!.<br/>
+                                        
                                         <i className="fa fa-quote-right" />
                                     </p>
                                     <ul className="stars list-unstyled">
@@ -86,8 +85,8 @@ export default function Testimonial(props) {
                                 </div>
                                 <div className='client-info'>
                                     <img src={real} alt="No connection" ></img>
-                                    <h5>Dr. Real</h5>
-                                    <p>CEO RealGlobal</p>
+                                    <h5>Mr Franco</h5>
+                                    <p>DCI Teacher</p>
                                 </div>
                             </div>
                         </div>
@@ -96,8 +95,7 @@ export default function Testimonial(props) {
                                 <div className="testi-comment">
                                     <p>
                                         <i className="fa fa-quote-left" />
-                                        Creative works from Freeman, He is very creative and unique in his approaches.He is honest and
-                                        he delivers on time.<br/>
+                                        Thanks Freeman! That means a lot to me. You were one of the best students I've ever had in DCI!.<br/>
                                         (Sample message)
                                         <i className="fa fa-quote-right" />
                                     </p>
@@ -121,8 +119,8 @@ export default function Testimonial(props) {
                                 </div>
                                 <div className='client-info'>
                                     <img src={real} alt="No connection" ></img>
-                                    <h5>Dr. Real</h5>
-                                    <p>CEO RealGlobal</p>
+                                    <h5>Mr. Franco</h5>
+                                    <p>DCI Teacher</p>
                                 </div>
                             </div>
                         </div>
@@ -131,8 +129,7 @@ export default function Testimonial(props) {
                                 <div className="testi-comment">
                                     <p>
                                         <i className="fa fa-quote-left" />
-                                        Creative works from Freeman, He is very creative and unique in his approaches.He is honest and
-                                        he delivers on time.<br/>
+                                        Thanks Freeman! That means a lot to me. You were one of the best students I've ever had in DCI!.<br/>
                                         (Sample message)
                                         <i className="fa fa-quote-right" />
                                     </p>
@@ -156,8 +153,8 @@ export default function Testimonial(props) {
                                 </div>
                                 <div className='client-info'>
                                     <img src={real} alt="No connection" ></img>
-                                    <h5>Dr. Real</h5>
-                                    <p>CEO RealGlobal</p>
+                                    <h5>Mr Franco</h5>
+                                    <p>DCI Teacher</p>
                                 </div>
                             </div>
                         </div>
@@ -166,8 +163,7 @@ export default function Testimonial(props) {
                                 <div className="testi-comment">
                                     <p>
                                         <i className="fa fa-quote-left" />
-                                        Creative works from Freeman, He is very creative and unique in his approaches.He is honest and
-                                        he delivers on time.<br/>
+                                        Thanks Freeman! That means a lot to me. You were one of the best students I've ever had in DCI!.<br/>
                                         (Sample message)
                                         <i className="fa fa-quote-right" />
                                     </p>
@@ -191,8 +187,8 @@ export default function Testimonial(props) {
                                 </div>
                                 <div className='client-info'>
                                     <img src={real} alt="No connection" ></img>
-                                    <h5>Dr. Real</h5>
-                                    <p>CEO RealGlobal</p>
+                                    <h5>Mr. Franco</h5>
+                                    <p>DCI Teacher</p>
                                 </div>
                             </div>
                         </div>

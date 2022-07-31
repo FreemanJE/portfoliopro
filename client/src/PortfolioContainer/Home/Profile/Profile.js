@@ -2,29 +2,14 @@ import React from "react";
 import Typical from "react-typical";
 import "./Profile.css";
 import ScrollService from "../../../utilities/ScrollService";
+
 const Profile = () => {
   return (
     <div className="profile-container">
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
-            <div className="colz-icon">
-             
-              <a href="https://github.com/FreemanJE?tab=repositories">
-                <i className="fa fa-google-plus-square"></i>
-              </a>
-              
-              <a href="https://www.linkedin.com/in/freeman-johnson-b1b04683/">
-                <i className="fa fa-linkedin-square"></i>
-              </a>
-              <a href=" #">
-                <i className="fa fa-facebook-square"></i>
-              </a>
-              <a href=" #">
-                <i className="fa fa-twitter-square"></i>
-              </a>
-              
-            </div>
+            
             <div className="profile-details-name">
               <span className="primary-text">
                 {" "}
@@ -60,14 +45,31 @@ const Profile = () => {
             <div className="profile-options">
               <button
                 className="btn primary-btn"
-                onClick={() => ScrollService.scrollHandler.scrollToHireMe()}>
+                onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
+              >
                 Hire Me
               </button>
-              <a href="freeman-cv.png" downloaded="Freeman-cv.png">
-                <button className="btn highlighted-btn">Get Resume</button>
+              <button className="btn highlighted-btn">
+              <a href="freeman-cv.png" downloaded="Freeman-cv.png">Get Resume</a>
+              </button>
+            </div>
+            <div className="colz-icon">
+              <a href="https://github.com/FreemanJE?tab=repositories">
+                <i className="fa fa-google-plus-square"></i>
+              </a>
+
+              <a href="https://www.linkedin.com/in/freeman-johnson-b1b04683/">
+                <i className="fa fa-linkedin-square"></i>
+              </a>
+              <a href=" #">
+                <i className="fa fa-facebook-square"></i>
+              </a>
+              <a href=" #">
+                <i className="fa fa-twitter-square"></i>
               </a>
             </div>
           </div>
+          
         </div>
         <div className="profile-picture">
           <div className="profile-picture-background"> </div>

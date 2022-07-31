@@ -44,7 +44,7 @@ export default function Resume(props) {
   /* STATIC RESUME DATA FOR THE LABELS*/
   const resumeBullets = [
     { label: "Education", logoSrc: "education.svg" },
-    { label: "Work History", logoSrc: "work-history.svg" },
+    { label: "Related Experience", logoSrc: "work-history.svg" },
     { label: "Programming Skills", logoSrc: "programming-skills.svg" },
     { label: "Projects", logoSrc: "projects.svg" },
     { label: "Interests", logoSrc: "interests.svg" },
@@ -63,24 +63,26 @@ export default function Resume(props) {
   // Projects
   const projectsDetails = [
     {
+      title: "Falma E-commerce",
+      duration: { fromDate: "6/2022", toDate: "7/2022" },
+      description:
+        "An Online Shop using both Database and external API to display Products. This was our final Project with a team of 4 Students ",
+      subHeading: "Technologies Used: Fullstack MERN, Bootstrap",
+    },
+    {
       title: "Personal Portfolio Website",
-      duration: { fromDate: "2022", toDate: "2022" },
+      duration: { fromDate: "5/2022", toDate: "6/2022" },
       description:
         "A Personal Portfolio website to showcase all my details and projects at one place",
       subHeading: "Technologies Used: React JS, Bootstrap",
     },
     {
-      title: "Etukas Images",
-      duration: { fromDate: "April 2022", toDate: "May 2022" },
-      description: " an Application design to search and display all types of images with corresponding information ",
-      subHeading: "Technology used: React JS",
+      title: "Etukas Message Board",
+      duration: { fromDate: "4/2022", toDate: "4/2022" },
+      description: "An Application design to search and display all types of images with corresponding information",
+      subHeading: "Technology used: Fullstack MERN, Bootstrap",
     },
-    {
-      title: "Note Taking Apps",
-      duration: { fromDate: "2022", toDate: "2022" },
-      description: "A good app for taking adding or editing notes",
-      subHeading: "React JS",
-    },
+    
   ];
 
   // Education
@@ -178,14 +180,14 @@ export default function Resume(props) {
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
         heading="Sport"
-        description="Apart from being a code enthusiast, I also love playing  and watching football"
+        description="Apart from being a code enthusiast, I love playing  and watching football and also cycling"
       />
       <ResumeHeading
         heading="Family life"
         description="As a father, I enjoy close family life"
       />
       <ResumeHeading
-        heading="Music and Conferencing"
+        heading="Reading, Music and Conferencing"
         description="Hosting Gospel Conferencing and Music is highly inspirational to me"
       />
     </div>,

@@ -1,7 +1,7 @@
 import React from 'react'
 import { TOTAL_SCREENS } from '../utilities/commonUtils'
-import SideBar from "./sideBar/SideBar.js";
 import './PortfolioContainer.css'
+import Scroll from './Scroll/Scroll';
 
 
 export default function PortfolioContainer() {
@@ -20,7 +20,7 @@ export default function PortfolioContainer() {
     return (
         <div className="portfolio-container">
             <div className="portfolio-scroll-icon" >
-                <SideBar />
+                <Scroll />
             </div>
             {mapAllScreens()}
             

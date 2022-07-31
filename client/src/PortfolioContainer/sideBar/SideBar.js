@@ -10,7 +10,7 @@ export default function SideBar() {
         className="btn-scroll"
         onClick={() => ScrollService.scrollHandler.scrollToHome()}
       >       
-        <i className="fa fa-arrow-up"> Home</i>        
+        <i className="fa fa-arrow-up">Top</i>        
       </button>
     </div>
   );
