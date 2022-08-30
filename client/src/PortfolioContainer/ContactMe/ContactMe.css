@@ -4,8 +4,7 @@
 }
 .colz-icon { 
   color: white;
-  padding: px;
-  padding-left: 10px;
+  padding: 10px 10px;
   font-size: 30px;
 }
 
@@ -39,12 +38,23 @@
   margin-bottom: 20px;
 }
 
-.img-back h4 {
+.img-back h3 {
   letter-spacing: 0.3rem;
   font-weight: 400;
   color: white;
   font-size: 18px;
-  opacity: 0.5;
+  text-align: center;
+  font-family: Georgia;
+  /* opacity: 0.5; */
+}
+.img-back h4 {
+  color: white;
+  text-align: center;
+
+}
+.img-back h3 i {
+  color: greenyellow;
+
 }
 .back-form .img-back img {
   width: 100%;
@@ -148,8 +158,14 @@ button i {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 30px;    
   }
+  .colz-icon { 
+    margin-top: 20px;
+    padding: 10px 10px 0;
+    font-size: 30px;
+  }
+  
 
   .img-back {
     flex: 1;

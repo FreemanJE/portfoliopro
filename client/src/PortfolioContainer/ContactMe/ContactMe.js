@@ -86,16 +86,19 @@ export default function ContactMe(props) {
             <a href=" #">
               <i className="fa fa-facebook-square"></i>
             </a>
-            <a href=" #">
+            {/* <a href=" #">
+              <i className="fa fa-twitter-square"></i>
+            </a> */}
+            <a href="pfreejohnson@gmail.com">
               <i className="fa fa-twitter-square"></i>
             </a>
           </div>
         </div>
         <div className="back-form">
           <div className="img-back">
-            <h4>Send Your Email Here!</h4>
+            <h3>Kindly fill the form or send a mail to<br /><i>pfreejohnson@gmail.com</i>  </h3>
             <img src={imgBack} alt="imag not found" />
-            
+            <h4>Thank you</h4>
           </div>
 
           <form onSubmit={submitForm}>

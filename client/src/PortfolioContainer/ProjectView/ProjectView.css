@@ -1,0 +1,177 @@
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .bg-items {
+    padding: 3px;
+    margin: 20px;
+    cursor: pointer;
+    box-shadow: 3px 3px 15px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 10px; 
+  }
+
+  .items {
+    min-width: 320px;
+    height: 50vh;  
+    position: relative;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;  
+    border-radius: 10px; 
+  }
+  .items:hover {
+    height: 50vh;
+    transition: all 0.5s;  
+   
+  }
+  
+  .details {
+    background-color: rgba(8, 85, 240, 0.9);
+    padding: 0 10px;
+    font-family: georgia;
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.8s;
+    bottom: 0%;
+    position: absolute;
+    border: 0.1px solid black;
+    border-radius: 0 15px 15px 0;
+  }
+  
+  .details h2 {
+    font-style: italic;
+  }
+  
+  .items:hover .details {
+    opacity: 1;
+    transition: opacity 0.2s 0.3s;
+    /* background-color: rgba(213, 8, 240, 0.8); */
+  }
+  
+  .items div {
+    position: absolute;
+  }
+  .one {
+    left: 100%;
+    bottom: 100%;
+    width: 100%;
+    height: inherit;
+    background-image: url(../../assets/Project/falma2.png);
+    transition: all 0.3s;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .items:hover .one {
+    transition: all 0.6s;
+    left: 0;
+    bottom: 0;
+   
+  }
+  
+  .two {
+    right: 100%;
+    width: 100%;
+    height: inherit;
+    background-image: url(../../assets/Project/mBoard1.png);
+    transition: all 0.6s;
+    bottom: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .items:hover .two {
+    right: 0;
+    bottom: 0;
+    transition: all 0.6s;
+  }
+  
+  /* three */
+  
+  .three {
+    right: 100%;
+    top: 100%;
+    width: 100%;
+    height: inherit;
+    background-image: url(../../assets/Project/noteApp2.png);
+    transition: all 0.6s;
+    transform: scale(0, 0);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .items:hover .three {
+    right: 0;
+    top: 0;
+    transform: scale(1, 1);
+    transition: all 0.6s;
+  }
+  
+  /* four */
+  
+  .four {
+    width: 100%;
+    height: inherit;
+    background-image: url(../../assets/Project/picSearch1.png);
+    transition: all 1s;
+    right: 100%;
+    top: 0;
+    transform: scale(0, 0) rotate(0deg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .items:hover .four {
+    right: 0;
+    top: 0;
+    transform: scale(1, 1) rotate(360deg);
+    transition: all 0.8s;
+  }
+  
+  /* five */
+  
+  .five {
+    width: 100%;
+    height: inherit;
+    background-image: url(../../assets/Project/sinach1.png);
+    transition: all 1s;
+    left: 0;
+    bottom: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .items:hover .five {
+    left: 0;
+    bottom: 0;
+    transition: all 1s;
+  }
+  /* six */
+  .six {
+    width: 100%;
+    height: inherit;
+    background-image: url(../../assets/Project/forest2.png);
+    transition: all 1s;
+    left: 100%;
+    top: 0;
+    transform: scale(0, 0) rotate(0deg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .items:hover .six {
+    left: 0;
+    top: 0;
+    transform: scale(1, 1) rotate(360deg);
+    transition: all 0.5s;
+  }
+  

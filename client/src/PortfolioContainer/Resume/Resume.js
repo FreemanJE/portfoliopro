@@ -15,7 +15,7 @@ export default function Resume(props) {
   const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
-    /* REUSABLE MINOR COMPONENTS */
+  /* REUSABLE MINOR COMPONENTS */
   const ResumeHeading = (props) => {
     return (
       <div className="resume-heading">
@@ -55,7 +55,7 @@ export default function Resume(props) {
     { skill: "React Native", ratingPercentage: 65 },
     { skill: "Express JS", ratingPercentage: 70 },
     { skill: "Node JS", ratingPercentage: 70 },
-    { skill: "Mongo DB", ratingPercentage: 70 },    
+    { skill: "Mongo DB", ratingPercentage: 70 },
     { skill: "HTML", ratingPercentage: 75 },
     { skill: "CSS", ratingPercentage: 75 },
   ];
@@ -79,10 +79,10 @@ export default function Resume(props) {
     {
       title: "Etukas Message Board",
       duration: { fromDate: "4/2022", toDate: "4/2022" },
-      description: "An Application design to search and display all types of images with corresponding information",
+      description:
+        "An Application design to search and display all types of images with corresponding information",
       subHeading: "Technology used: Fullstack MERN, Bootstrap",
     },
-    
   ];
 
   // Education
@@ -121,24 +121,36 @@ export default function Resume(props) {
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Worked as Service Technician with specialization on Hp Printers and Plotters. Repairs and installations on desktops and mobile computer devices.
+            Worked as Service Technician with specialization on Hp Printers and
+            Plotters. Repairs and installations on desktops and mobile computer
+            devices.
           </span>
         </div>
         <div className="experience-description">
           <span className="resume-description-text">
-            - In-house and field repairs and maintenance services.
+            - Customer Support remotely and on-site.
           </span>
-        </div>
-        <div className="experience-description">
+          <br />
           <span className="resume-description-text">
             - Upgrading Seminars on Hp Products
           </span>
-          <br />
+        </div>
+        <br />
+
+        <ResumeHeading
+          heading={"CCOM Berlin"}
+          subHeading={"Pastor"}
+          fromDate={"2007"}
+          toDate={"2011"}
+        />
+        <div className="experience-description">
           <span className="resume-description-text">
-            - Learning and Upgrading Seminars on HP Technologies and new
-            Products
+            Christian Leadership and Counselling
           </span>
           <br />
+          <span className="resume-description-text">
+            Evangelism and Public Relations
+          </span>
         </div>
       </div>
     </div>,
@@ -231,14 +243,13 @@ export default function Resume(props) {
       </div>
     );
   };
-  
+
   useEffect(() => {
     return () => {
       /* UNSUBSCRIBE THE SUBSCRIPTIONS */
       fadeInSubscription.unsubscribe();
     };
   }, [fadeInSubscription]);
-
 
   return (
     <div

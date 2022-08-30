@@ -13,7 +13,7 @@ const Profile = () => {
             <div className="profile-details-name">
               <span className="primary-text">
                 {" "}
-                Hello, I'M <span className="highlighted-text">Freeman</span>
+                Hello, I'm <span className="highlighted-text">Freeman</span>
               </span>
             </div>
             <div className="profile-details-role">
@@ -54,11 +54,11 @@ const Profile = () => {
               </button>
             </div>
             <div className="colz-icon">
-              <a href="https://github.com/FreemanJE?tab=repositories">
+              <a href="https://github.com/FreemanJE">
                 <i className="fa fa-google-plus-square"></i>
               </a>
 
-              <a href="https://www.linkedin.com/in/freeman-johnson-b1b04683/">
+              <a href="https://www.linkedin.com/in/freeman-johnson-links/">
                 <i className="fa fa-linkedin-square"></i>
               </a>
               <a href=" #">
